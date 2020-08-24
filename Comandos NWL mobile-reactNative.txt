@@ -1,0 +1,25 @@
+Para intalar o expo: yarn global add expo-cli ou npm install expo-cli --global
+
+Criando um folder com expo: expo init mobile e dps escolher a opção: blank<TypeScript>
+
+Logo após abre o diretório mobile cd mobile e starta, yarn start 
+
+baixar o app expo, é bom olhar o expo commun issues
+
+lembrar de exportar as imagens em 3 tamanhos distintos e ser png
+
+expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
+
+https://reactnavigation.org/docs/getting-started //para rotas em mobile, 
+react navigation: yarn add @react-navigation/native ou npm install @react-navigation/native 
+
+e logo dps: expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view 
+
+e dps do comando anterior: yarn add @react-navigation/stack  ou npm install @react-navigation/stack
+
+E as tag navigation: yarn add @react-navigation/bottom-tabs ou npm install @react-navigation/bottom-tabs
+
+Construção da Api: yarn add axios
+baseURL: 'http://192.168.15.7:3333' porta do servidor node
+
+Para ter um BD entro do dispositivo, procura no google por expo asyn storage: expo install @react-native-community/async-storage
